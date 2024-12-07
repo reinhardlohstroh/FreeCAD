@@ -264,6 +264,8 @@
         <file>Group.svg</file>
         <file>Geofeaturegroup.svg</file>
         <file>Geoassembly.svg</file>
+	<file>Carcass.svg</file>
+	<file>CarcassComp.svg</file>
         <file>Std_Point.svg</file>
         <file>Std_Axis.svg</file>
         <file>Std_Plane.svg</file>
