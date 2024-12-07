@@ -58,6 +58,10 @@ protected:
     void onChanged(const App::Property* prop) override;
     /// a second icon for the Assembly type
     const char* aPixmap;
+    /// a third icon for the Carcass type
+    const char* cPixmap;
+    /// a fourth icon for the CarcassComp type
+    const char* dPixmap;
 
 };
 
