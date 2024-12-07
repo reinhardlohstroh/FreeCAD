@@ -134,11 +134,9 @@ QIcon ViewProviderPart::getIcon() const
     // if it's flagged as an Assembly in its Type, it gets another icon
     if (part->Type.getStrValue() == "Assembly") { pixmap = aPixmap; }
     // if it's flagged as an Carcass in its Type, it gets another icon
-    if (part->Type.getStrValue() == "Carcass") {
-        pixmap = cPixmap;
+    if (part->Type.getStrValue() == "Carcass") { pixmap = cPixmap; }
     // if it's flagged as an CarcassComp in its Type, it gets another icon
-    if (part->Type.getStrValue() == "CarcassComp") {
-            pixmap = dPixmap;
+    if (part->Type.getStrValue() == "CarcassComp") { pixmap = dPixmap; }
     }
 
     return mergeGreyableOverlayIcons (Gui::BitmapFactory().pixmap(pixmap));
